@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  background: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  background-color: #d25d31;
+  height: 40px;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: white;
+}
+
+header ul {
+  width: 100%;
+}
+
+header h1 {
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+header li {
+  float: right;
+  background-color: #d25d31;
+  padding: 3px;
+  margin: 3px;
+}
+
+header li:hover {
+  color: white;
+}
+
+.introduction {
+  background-color: #e4d2d2;
+  margin-left: 15%;
+  margin-top: 100px;
+  width: 70%;
+  height: 450px;
+}
+
+.profile-image {
+  height: 400px;
+  margin: 25px;
+  float: left;
+}
+
+.personal-information {
+  float: right;
+  width: 50%;
+}
+
+.personal-information h1 {
+  margin: 20px 5px 10px;
+  display: inline-block;
+}
+
+.personal-information p {
+  text-align: right;
+  margin: 20px;
+}
+
+.personal-information li {
+  list-style: square;
+}
+
+.name {
+  color: #d25d31;
+  margin: 10px;
+}
+
+.skills {
+  margin-left: 25%;
+  margin-top: 100px;
+  width: 70%;
+  height: 450px;
+  display: block;
+}
+
+.tech-skills {
+  display: inline-block;
+}
+
+.tech-skills div {
+  background-color: #d25d31;
+  height: 40px;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.tech-skills p {
+  color: white;
+}
+
+.tech-skills h2:hover {
+  color: white;
+}
+
+.tech {
+  background-color: black;
+  color: white;
+}
+
+.tech-practices {
+  display: inline-block;
+}
+
+.tech-practices div {
+  background-color: #d25d31;
+  height: 40px;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.tech-practices p {
+  color: white;
+}
+
+.tech-practices h2:hover {
+  color: white;
+}
+
+.practices {
+  background-color: black;
+  color: white;
+}
+
+.other-skills {
+  display: inline-block;
+}
+
+.other-skills div {
+  background-color: #d25d31;
+  height: 40px;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.other-skills p {
+  color: white;
+}
+
+.other-skills h2:hover {
+  color: white;
+}
+
+.other {
+  background-color: black;
+  color: white;
+}
+
+.contact {
+  margin-top: 200px;
+  padding: 25px;
+  display: block;
+  background-color: #e4d2d2;
+  height: 350px;
+  width: 100%;
+}
+
+.social-media {
+  margin-left: 43%;
+}
+
+.social-media img {
+  margin-top: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  header {
+    height: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  header ul {
+    width: 100%;
+  }
+  header h1 {
+    float: none;
+    margin: 0;
+    padding: 0px;
+  }
+  header li {
+    float: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .introduction {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 1000px;
+  }
+  .personal-information {
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .personal-information h1 {
+    display: block;
+  }
+  .personal-information p {
+    text-align: right;
+  }
+  .skills {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .tech-skills {
+    display: block;
+  }
+  .tech-skills div {
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .tech-practices {
+    display: block;
+  }
+  .tech-practices div {
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .other-skills {
+    display: block;
+  }
+  .other-skills div {
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .contact {
+    box-sizing: border-box;
+    margin-top: 800px;
+    display: block;
+    height: 400px;
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+  .social-media {
+    margin: 0px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .profile-image {
+    height: 200px;
+  }
+  h1 {
+    color: white;
+  }
+}
